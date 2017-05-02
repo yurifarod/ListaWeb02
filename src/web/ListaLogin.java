@@ -30,7 +30,7 @@ public class ListaLogin extends HttpServlet {
             out.println("<body>");
             out.println("<div align = \"center\">");
             out.println("Bem-vindo, para add/remover filmes e sessões contacte o DBA");
-            out.println("Acompanhamento financeiro:");
+            out.println("<br><br>Acompanhamento financeiro:");
         Autenticador aut = new Autenticador();
 	       try {
 	            Class.forName(JDBC_DRIVER);

@@ -66,7 +66,7 @@ public class CompraIngresso extends HttpServlet {
                             out.println("</select>"
                             		+"<input type=\"text\" name=\"sessao\" style=\"display:none;\"  value="+rec.getString(1)+" >"
                             		+ "<input type=\"submit\" value=\"COMPRAR\" />");
-                            out.println("</td></tr>");
+                            out.println("</form></td></tr>");
                         }
                         else{
                         	out.println("ESGOTADO!");
